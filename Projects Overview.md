@@ -7,9 +7,8 @@
 Description:
 This SQL project analyzes a salary dataset to gain insights into salary patterns and employment dynamics across various industries. The dataset includes information on age, gender, education level, job titles, years of experience, salary, country, and race. The project aims to explore salary trends, average salaries by education level and job titles, salary distribution by country, and more.
 
-- **Project Repository:** [Link to Salary Dataset Project](https://github.com/AnoopHari/PorfolioProjects/blob/main/Salary%20Dataset%20Project.sql)
-
-- **Tableau Visualization:** [Link to Tableau Visualization](https://public.tableau.com/app/profile/anoop.s.hari/viz/SalaryInsightsDashboardUncoveringCompensationPatternsandDemographics/Dashboard1)
+- **Project Repository:** [Link to Salary Dataset Project]([link-to-salary-dataset-project](https://github.com/AnoopHari/PorfolioProjects/blob/main/Salary%20Dataset%20Project.sql))
+- **Tableau Visualization:** [Link to Tableau Visualization]([link-to-tableau-visualization](https://public.tableau.com/app/profile/anoop.s.hari/viz/SalaryInsightsDashboardUncoveringCompensationPatternsandDemographics/Dashboard1))
 
 Insights:
 - The project reveals significant differences in average salaries based on education level, with higher education generally leading to higher salaries.
@@ -21,8 +20,8 @@ Insights:
 Description:
 This SQL project analyzes a Spotify dataset to gain insights into users' music and podcast preferences, subscription habits, and listening behaviors. The dataset includes demographic information such as age and gender, as well as variables related to music and podcast usage. The project aims to explore patterns, trends, and correlations within the data and present the findings through interactive Tableau visualizations.
 
-- **Project Repository:** [Link to Spotify Data Project](https://github.com/AnoopHari/PorfolioProjects/blob/main/Spotify%20Data%20Project.sql)
-- **Tableau Visualization:** [Link to Tableau Visualization](https://public.tableau.com/app/profile/anoop.s.hari/viz/SpotifyUserDataReview/Dashboard1?publish=yes)
+- **Project Repository:** [Link to Spotify Data Project]([link-to-spotify-data-project](https://github.com/AnoopHari/PorfolioProjects/blob/main/Spotify%20Data%20Project.sql))
+- **Tableau Visualization:** [Link to Tableau Visualization]([link-to-tableau-visualization](https://public.tableau.com/app/profile/anoop.s.hari/viz/SpotifyUserDataReview/Dashboard1?publish=yes))
 
 Insights:
 - Users between the ages of 20 and 35 prefer music with specific moods, while school-going users have different music preferences.
@@ -31,6 +30,6 @@ Insights:
 
 Feel free to explore the project repositories and interact with the Tableau visualizations. For any questions or feedback, please reach out to me.
 
-Connect with me on [LinkedIn](link-to-linkedin) | Follow me on [Twitter](link-to-twitter)
+Connect with me on [LinkedIn](www.linkedin.com/in/anoopshari) 
 
 Let's delve into the data together and uncover valuable insights! 📊🎵
