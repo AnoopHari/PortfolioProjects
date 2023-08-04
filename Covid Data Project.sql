@@ -228,7 +228,9 @@ FROM coviddeaths cd
 JOIN covidvaccinations cv
 ON cd.location = cv.location
 GROUP BY cd.location
-ORDER BY accination_rate DESC;
+ORDER BY VaccinationRate DESC;
+
+
 
   
 
