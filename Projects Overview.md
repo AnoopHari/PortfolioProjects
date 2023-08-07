@@ -33,11 +33,11 @@ Insights:
 Description:
 This compelling COVID-19 dataset analysis focuses on unraveling significant patterns in infection rates and mortality trends across various locations. The dataset encompasses crucial information on total cases, deaths, population, testing data, and vaccination statistics for different countries and dates. Through rigorous SQL queries, this project aims to shed light on key insights, including infection rate fluctuations, death percentages in specific locations, and the impact of vaccination efforts on controlling the pandemic.
 
-- **Project Repository:** [Link to COVID-19 Dataset Project]
-- (https://github.com/AnoopHari/PorfolioProjects/blob/main/Covid%20Data%20Project.sql)
+- **Project Repository:** [Link to COVID-19 Dataset Project](https://github.com/AnoopHari/PorfolioProjects/blob/main/Covid%20Data%20Project.sql)
 
-- **Tableau Visualization:** [Link to Tableau Visualization]
- -(https://public.tableau.com/app/profile/anoop.s.hari/viz/ThemostaffectedcountriesbyCOVID-19/Dashboard1)
+
+- **Tableau Visualization:** [Link to Tableau Visualization](https://public.tableau.com/app/profile/anoop.s.hari/viz/ThemostaffectedcountriesbyCOVID-19/Dashboard1)
+ 
 
 Key Insights:
 
@@ -51,6 +51,6 @@ By leveraging the power of SQL and Tableau visualizations, this project facilita
 
 Feel free to explore the project repositories and interact with the Tableau visualizations. For any questions or feedback, please reach out to me.
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/anoopshari/)) 
+Connect with me on [LinkedIn](https://www.linkedin.com/in/anoopshari/) 
 
 Let's delve into the data together and uncover valuable insights! 📊🎵
