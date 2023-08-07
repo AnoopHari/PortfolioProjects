@@ -28,8 +28,29 @@ Insights:
 - Podcasts of different genres have varying average ages of listeners.
 - Premium subscription usage is significantly higher among users with more than two years of Spotify usage.
 
+## 3) Covid Data Project
+
+Description:
+This compelling COVID-19 dataset analysis focuses on unraveling significant patterns in infection rates and mortality trends across various locations. The dataset encompasses crucial information on total cases, deaths, population, testing data, and vaccination statistics for different countries and dates. Through rigorous SQL queries, this project aims to shed light on key insights, including infection rate fluctuations, death percentages in specific locations, and the impact of vaccination efforts on controlling the pandemic.
+
+- **Project Repository:** [Link to COVID-19 Dataset Project]
+- (https://github.com/AnoopHari/PorfolioProjects/blob/main/Covid%20Data%20Project.sql)
+
+- **Tableau Visualization:** [Link to Tableau Visualization]
+ -(https://public.tableau.com/app/profile/anoop.s.hari/viz/ThemostaffectedcountriesbyCOVID-19/Dashboard1)
+
+Key Insights:
+
+1) Infection Rate Dynamics: The analysis reveals fluctuations in infection rates over time, reflecting the ebb and flow of COVID-19 cases in different regions. By visualizing this trend, we can identify potential hotspots and periods of increased transmission.
+
+2) Location-Specific Mortality: The project investigates the death percentage in highest infection affected locations, providing critical insights into the pandemic's impact on specific regions.
+
+3) Vaccination Impact: The analysis explores vaccination efforts, including the number of vaccinated individuals and the percentage of fully vaccinated populations in different countries. This information aids in understanding the progress of vaccination campaigns and their influence on curbing the spread of the virus.
+
+By leveraging the power of SQL and Tableau visualizations, this project facilitates a comprehensive understanding of COVID-19's impact, infection patterns, and the effectiveness of vaccination strategies of top affected countires.
+
 Feel free to explore the project repositories and interact with the Tableau visualizations. For any questions or feedback, please reach out to me.
 
-Connect with me on [LinkedIn](www.linkedin.com/in/anoopshari) 
+Connect with me on [LinkedIn](https://www.linkedin.com/in/anoopshari/)) 
 
 Let's delve into the data together and uncover valuable insights! 📊🎵
