@@ -55,7 +55,8 @@ Feel free to explore the project repositories and interact with the Tableau visu
 
 Description: The project, "Savoring Insights: Analyzing Food Preferences and Lifestyle Choices," delves into the rich tapestry of human behavior and choices by examining a comprehensive dataset stored in the "food_habits" database. This dataset, encapsulated within the "food_details" table, encapsulates diverse information, ranging from participants' academic performance and gender to their dietary habits, exercise routines, and favorite cuisines. Through a series of SQL queries and analyses, this project unravels intriguing patterns and trends within the data, shedding light on questions such as gender distribution, average GPA, drink preferences, childhood cuisines, comfort food motivations, and much more. 
 
-- **Project Repository:** [[Link to Food Habits Project](https://github.com/AnoopHari/PorfolioProjects/blob/main/FoodHabits%20Project.sql)]
+- **Project Repository:** [Link to Food Habits Project](https://github.com/AnoopHari/PorfolioProjects/blob/main/FoodHabits%20Project.sql)
+
 
 
 - **Tableau Visualization:** [Link to Tableau Visualization](https://public.tableau.com/app/profile/anoop.s.hari/viz/SavoringInsightsFoodPreferencesandLifestyleChoices/Dashboard1)
