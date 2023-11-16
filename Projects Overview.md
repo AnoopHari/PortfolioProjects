@@ -74,6 +74,90 @@ Key Insights:
 
 5) Popular Sports Choice: The analysis unveiled the prevalent sport of choice among participants, providing crucial insights for sports-focused businesses and organizations seeking to engage with specific sports enthusiasts in their target demographic. 
 
+## 5) Sky Choices: Navigating Airlines
+
+The "Sky Choices" project delves into aviation data from the "airline_data" dataset sourced from Kaggle, revealing key patterns and trends within passenger demographics, flight operations, delays, and travel behaviors.
+
+Key Insights:
+
+1) Passenger Demographics: Uncovered average ages across nationalities and gender-specific trends, aiding targeted marketing and service improvements.
+
+2) Flight Operations: Analyzed airport performance to identify busy hubs and potential areas for optimization.
+
+3) Flight Delays Analysis: Calculated delay percentages to assess operational punctuality and scheduling improvements.
+
+4) Passenger Travel Behavior: Explored travel habits like frequent flyers, diverse destinations visited, and consecutive travel days.
+
+Tableau Visualization:
+
+Utilized an interactive Tableau dashboard to visually represent data insights. Charts, maps, and filters provide an intuitive exploration of passenger demographics, delay patterns, airport metrics, and travel behaviors.
+
+- **Project Repository:** [Link to Food Habits Project](https://github.com/AnoopHari/PorfolioProjects/blob/main/FoodHabits%20Project.sql)
+
+
+
+- **Tableau Visualization:** [Link to Tableau Visualization](https://public.tableau.com/app/profile/anoop.s.hari/viz/SkyChoicesNavigatingAirlines-WhichAirlinetoChoose/Dashboard1)
+
+
+Conclusion:
+
+The "Sky Choices: Navigating Airlines" project furnishes airlines and industry stakeholders with actionable insights for enhancing operational efficiency, customer experiences, and targeted strategies, enabling a deeper understanding of air travel dynamics.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/anoopshari/) 
 
