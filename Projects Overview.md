@@ -92,8 +92,9 @@ Tableau Visualization:
 
 Utilized an interactive Tableau dashboard to visually represent data insights. Charts, maps, and filters provide an intuitive exploration of passenger demographics, delay patterns, airport metrics, and travel behaviors.
 
-- **Project Repository:** [Link to Airlines Project]
- (https://github.com/AnoopHari/PortfolioProjects/blob/main/Airlines%20Project.sql)
+- **Project Repository:** [[Link to Airlines Project](https://github.com/AnoopHari/PortfolioProjects/blob/main/Airlines%20Project.sql)
+)]
+ 
 
 
 - **Tableau Visualization:** [Link to Tableau Visualization](https://public.tableau.com/app/profile/anoop.s.hari/viz/SkyChoicesNavigatingAirlines-WhichAirlinetoChoose/Dashboard1)
