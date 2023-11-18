@@ -1,6 +1,6 @@
 # Tableau Dashboards
 
-## 1. NYC Real Estate Market Analysis:-
+## 1. NYC Real Estate Market Analysis
    
    Link to Viz: https://public.tableau.com/app/profile/anoop.s.hari/viz/NYCRealEstateMarketAnalysis/Dashboard1
 
