@@ -62,17 +62,19 @@ Identified missing values using colSums(is.na()) and imputed the missing values 
 Transformed the 'Potability' column from 0/1 to categorical 'Potable'/'Not Potable' using mutate() and ifelse().
 
 5.	Data Summary and Visualization:
->	Calculated and visualized the percentage of potable and non-potable water using group_by(), summarise(), and ggplot() for creating bar plots.
->	Analyzed and visualized the pH scale distribution within and outside limits using mutate(), group_by(), and ggplot() for a bar plot.
+-	Calculated and visualized the percentage of potable and non-potable water using group_by(), summarise(), and ggplot() for creating bar plots.
+  
+-	Analyzed and visualized the pH scale distribution within and outside limits using mutate(), group_by(), and ggplot() for a bar plot.
 
 6.	Calculations and Summary Statistics:
-> Calculated the mean pH value across all water bodies using mean() function.
+- Calculated the mean pH value across all water bodies using mean() function.
 
-> Created boxplots to compare the distribution of hardness among potable and non-potable water using ggplot().
+- Created boxplots to compare the distribution of hardness among potable and non-potable water using ggplot().
 
 7.	Statistical Tests:
->	Performed statistical tests such as t-tests (t.test()) to compare mean values of Chloramine levels and Conductivity between potable and non-potable water.
->	Conducted correlation analysis (cor()) between Chloramines and Sulfate, and between Hardness and Sulfate.
+-	Performed statistical tests such as t-tests (t.test()) to compare mean values of Chloramine levels and Conductivity between potable and non-potable water.
+
+-	Conducted correlation analysis (cor()) between Chloramines and Sulfate, and between Hardness and Sulfate.
 
 8.	Further Data Exploration:
 Explored relationships between variables by creating scatterplots (ggplot()) to visualize Chloramines vs. Sulfate, and Hardness vs. Sulfate for potable and non-potable water bodies separately.
