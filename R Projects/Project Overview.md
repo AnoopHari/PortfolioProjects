@@ -2,6 +2,8 @@
 
 [Link to Water Quality Assessment Project](http://rpubs.com/Anoop-S-Hari/1120063)
 
+[Link to RMD Code](URL_OF_YOUR_RMD_FILE)
+
 The dataset for this analysis was downloaded from the Kaggle website, it contained a single file named ‘water_potability.csv’. 
 
 Goal: Assess and evaluate the quality of water bodies using various water quality metrics and determine their compliance with international standards and guidelines for potability.
