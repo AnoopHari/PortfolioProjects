@@ -2,7 +2,7 @@
 
 [Link to Water Quality Assessment Project](http://rpubs.com/Anoop-S-Hari/1120063)
 
-[Link to RMD Code](URL_OF_YOUR_RMD_FILE)
+[Link to RMD Code](https://github.com/AnoopHari/PortfolioProjects/blob/main/R%20Projects/Water%20Quality%20Assessment.Rmd)
 
 The dataset for this analysis was downloaded from the Kaggle website, it contained a single file named ‘water_potability.csv’. 
 
