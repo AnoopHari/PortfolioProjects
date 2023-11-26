@@ -50,30 +50,36 @@ Indicates if water is safe for human consumption where 1 means Potable and 0 mea
 Steps Done:
 
 1.	Package Installation and Loading:
-Installed and loaded necessary R packages: tidyverse, dplyr, readr, tidyr for data manipulation and    visualization.
+Installed and loaded necessary R packages: tidyverse, dplyr, readr, tidyr for data manipulation and visualization.
+
 2.	Data Import and Exploration:
 Imported the dataset 'water_potability.csv' using read.csv and then checked its structure using str() and summary statistics using summary().
+
 3.	Handling Missing Values:
 Identified missing values using colSums(is.na()) and imputed the missing values in columns 'ph', 'Sulfate', and 'Trihalomethanes' with mean values using mean() and ifelse() statements.
+
 4.	Data Transformation:
 Transformed the 'Potability' column from 0/1 to categorical 'Potable'/'Not Potable' using mutate() and ifelse().
-5.	Data Summary and Visualization:
 
-	Calculated and visualized the percentage of potable and non-potable water using group_by(), summarise(), and ggplot() for creating bar plots.
-	Analyzed and visualized the pH scale distribution within and outside limits using mutate(), group_by(), and ggplot() for a bar plot.
+5.	Data Summary and Visualization:
+>	Calculated and visualized the percentage of potable and non-potable water using group_by(), summarise(), and ggplot() for creating bar plots.
+>	Analyzed and visualized the pH scale distribution within and outside limits using mutate(), group_by(), and ggplot() for a bar plot.
 
 6.	Calculations and Summary Statistics:
-Calculated the mean pH value across all water bodies using mean() function.
-Created boxplots to compare the distribution of hardness among potable and non-potable water using ggplot().
-7.	Statistical Tests:
+> Calculated the mean pH value across all water bodies using mean() function.
 
-	Performed statistical tests such as t-tests (t.test()) to compare mean values of Chloramine levels and Conductivity between potable and non-potable water.
-	Conducted correlation analysis (cor()) between Chloramines and Sulfate, and between Hardness and Sulfate.
+> Created boxplots to compare the distribution of hardness among potable and non-potable water using ggplot().
+
+7.	Statistical Tests:
+>	Performed statistical tests such as t-tests (t.test()) to compare mean values of Chloramine levels and Conductivity between potable and non-potable water.
+>	Conducted correlation analysis (cor()) between Chloramines and Sulfate, and between Hardness and Sulfate.
 
 8.	Further Data Exploration:
 Explored relationships between variables by creating scatterplots (ggplot()) to visualize Chloramines vs. Sulfate, and Hardness vs. Sulfate for potable and non-potable water bodies separately.
+
 9.	Variance Calculation:
 Computed variances using var() to identify the variable with the highest variance among all features.
+
 10.	Specific Queries:
 Answered specific questions regarding the data, such as the percentage of water bodies with pH < 7, water bodies exceeding sulfate limits, etc., by filtering and performing calculations.
 
