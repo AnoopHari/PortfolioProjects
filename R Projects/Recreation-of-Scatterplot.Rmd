@@ -1,0 +1,48 @@
+---
+title: "Recreation of 'The Economist Publication's' Scatterplot"
+author: "Anoop S Hari"
+date: "2023-12-01"
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+---
+
+This visualization is a part of my ongoing ggplot project aimed at recreating a significant scatter plot published online in The Economist in 2011. The focus of this endeavor is to replicate and analyze the relationship between Corruption and Human Development, as highlighted in the original publication. Through ggplot2 in R, I am meticulously reconstructing the scatter plot that elucidates the correlation between Corruption Perception Index (CPI) and Human Development Index (HDI). The objective is to understand and visualize the patterns, trends, and potential correlations observed in the data, offering insights into the relationship between corruption levels and the overall development of various countries.
+
+Link to the publication : https://www.economist.com/graphic-detail/2011/12/02/corrosive-corruption
+
+
+```{r echo=TRUE, warning=FALSE}
+# installing the necessary packages
+install.packages(c("tidyverse", "ggthemes"), repos = "https://cran.rstudio.com/")
+library(tidyverse)
+library(ggthemes)
+
+#importing the data
+data <- read.csv("F:\\R practice\\Udemy R Course Notes\\R-for-Data-Science-and-Machine-Learning\\Training Exercises\\Capstone and Data Viz Projects\\Data Visualization Project\\Economist_Assignment_Data.csv")
+
+head(data)
+View(data)
+
+# You will need to specify x=CPI and y=HDI and color=Region as aesthetics
+p1 <- ggplot(data, aes(x = CPI, y = HDI)) +
+  geom_point(aes(color = Region), shape = 1, size = 5)+
+  geom_smooth(method = lm, formula = y ~ log(x), se = F, color = 'red') 
+
+# I'm employing a subset strategy to reduce label points, enhancing readability in the visualization
+pointsToLabel <- c("Russia", "Venezuela", "Iraq", "Myanmar", "Sudan",
+                   "Afghanistan", "Congo", "Greece", "Argentina", "Brazil",
+                   "India", "Italy", "China", "South Africa", "Spane",
+                   "Botswana", "Cape Verde", "Bhutan", "Rwanda", "France",
+                   "United States", "Germany", "Britain", "Barbados", "Norway", "Japan",
+                   "New Zealand", "Singapore")
+
+p1 + geom_text(aes(label = Country), color = "gray20",
+               data = subset(data, Country %in% pointsToLabel), check_overlap = TRUE) +
+  theme_bw() + scale_x_continuous(name = "Corruption Perceptions Index, 2011 (10 = least corrupt")+
+  labs(title = "Corruption and Human development", x = "Corruption Perceptions Index, 2011 (10 = least corrupt)", 
+  y = "Human Development Index, 2011 (1 = Best)")
+
+```
+
