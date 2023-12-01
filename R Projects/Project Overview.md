@@ -7,6 +7,5 @@ The project specifically utilizes ggplot2 for plot creation, employing data prep
 congestion for improved insights. The resulting visualization emphasizes the intersection between corruption perception and human development,
 aiming to provide a clearer representation of their correlation.
 
-Github Code: []
 See the code and visualization: [https://rpubs.com/Anoop-S-Hari/1122998]
-
+Github Code: [https://github.com/AnoopHari/PortfolioProjects/blob/main/R%20Projects/Recreation-of-Scatterplot.Rmd]
