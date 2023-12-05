@@ -4,6 +4,8 @@ The objective of this analysis is to explore and derive insights from a comprehe
 
 [Link to RPubs Report](https://rpubs.com/Anoop-S-Hari/1124971) 
 
+[Link to R code](https://github.com/AnoopHari/PortfolioProjects/blob/main/R%20Projects/Project%204/EV%20Data%20Analysis.R)
+
 Steps Taken in the Analysis:
 
 1. Data Preparation and Overview:
