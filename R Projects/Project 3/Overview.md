@@ -1,4 +1,4 @@
-# Title: Recreation of "The Economist" Publication's Scatterplot: Corruption and Human Development
+# Recreation of "The Economist" Publication's Scatterplot: Corruption and Human Development
 
 This project aims to recreate a scatterplot visualization featured in The Economist's 2011 publication focusing on the correlation between
 Corruption Perception Index (CPI) and Human Development Index (HDI). Leveraging R's ggplot2 library, this endeavor involves meticulous data
