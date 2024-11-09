@@ -2,7 +2,7 @@
   # Data Cleaning #
 #####################
 
--- Take a look t the data first
+-- Take a look at the data first
 SELECT * FROM layoffs;
 
 -- Creating a copy of the raw table
