@@ -114,12 +114,11 @@ Key Insights:
 
 Data Cleaning:
 
-- Corrected inconsistencies in position and location names.
-- Replaced missing values with defaults (e.g., "Unknown").
-- Standardized data formats for consistent querying.
+ - Corrected inconsistencies in position and location names.
+ - Replaced missing values with defaults (e.g., "Unknown").
+ - Standardized data formats for consistent querying.
 
 - **Project Repository:** [Link to Jobs and Salaries_India_Data Analysis](https://github.com/AnoopHari/PortfolioProjects/blob/main/SQL%20Projects/Jobs%20and%20Salaries_India_Data%20Analysis.sql)
-
 
 
 Conclusion:
@@ -127,10 +126,45 @@ Conclusion:
 This project provides valuable insights into employee compensation and experience, enabling organizations to optimize workforce strategies, address skill gaps, and develop fair compensation structures.
 
 
+## 7)  Data Cleaning and EDA on Layoff Data
 
+Objective:
+This project aims to clean, standardize, and analyze the "layoffs" dataset using SQL, uncovering key trends and insights about layoffs across various industries, countries, and funding stages.
 
+Key Insights:
 
+1) Industry Trends:
+   - Consumer & Retail industries experienced the highest layoffs during the analyzed period.
+   - The "Crypto" industry data was standardized for accurate aggregation and analysis.
 
+2) Company Analysis:
+   - Identified "Katerra" as the company with the highest layoffs (2,434 employees).
+   - Top companies contributing to layoffs were ranked yearly, with the top 5 for each year highlighted.
+  
+3) Geographical Distribution:
+  - The United States accounted for the majority of layoffs, showcasing significant regional impacts.
+
+4) Temporal Patterns:
+   - Layoffs peaked in specific months, with rolling totals calculated for cumulative effects.
+   - The time range of layoffs extended from March 2020 to March 2023.
+
+5) Funding Stage Analysis
+   - Companies in later funding stages, such as "Series C" and "IPO," reported higher layoffs, reflecting organizational restructuring efforts.
+  
+ Data Cleaning:
+
+ - Duplicates: Identified and removed duplicate records using grouping and window functions.
+ - Standardization: Trimmed whitespaces and unified inconsistent data entries for industries, companies, and countries.
+ - Date Handling: Converted textual date fields into SQL's DATE format for proper temporal analysis.
+ - Null Values: Imputed or removed null entries based on availability and relevance to ensure data completeness.
+ - Text Corrections: Fixed issues with industry names (e.g., Crypto-related inconsistencies) and improper country formats (e.g., "U.S.").
+
+Techniques and Tools:
+- Utilized SQL features such as CTEs (WITH statements), window functions (ROW_NUMBER, DENSE_RANK, SUM OVER), and aggregate functions (SUM, MAX, MIN).
+- Applied string manipulation techniques like TRIM and SUBSTRING.
+- Performed exploratory data analysis (EDA) using grouping, ordering, and rolling total calculations.
+   
+- **Project Repository:** [Link to Jobs and Salaries_India_Data Analysis](https://github.com/AnoopHari/PortfolioProjects/blob/main/SQL%20Projects/Data_Cleaning%20%2B%20EDA.sql)
 
 
 
