@@ -1,5 +1,3 @@
-# PorfolioProjects
-
 # Projects Overview
 
 ## 1) Salary Dataset Project
@@ -212,49 +210,6 @@ SQL Functions and Concepts Used:
 
 
 - **Project Repository:** [Link to Jobs and Salaries_India_Data Analysis](https://github.com/AnoopHari/PortfolioProjects/blob/main/SQL%20Projects/Sales_Analysis_Project.sql)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
