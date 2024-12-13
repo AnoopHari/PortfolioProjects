@@ -118,8 +118,7 @@ Data Cleaning:
 - Replaced missing values with defaults (e.g., "Unknown").
 - Standardized data formats for consistent querying.
 
-- **Project Repository:** [Link to Jobs and Salaries_India_Data Analysis]([https://github.com/AnoopHari/PorfolioProjects/blob/main/Salary%20Dataset%20Project.sql](https://github.com/AnoopHari/PortfolioProjects/blob/main/SQL%20Projects/Jobs%20and%20Salaries_India_Data%20Analysis.sql))
-
+- **Project Repository:** [Link to Jobs and Salaries_India_Data Analysis](https://github.com/AnoopHari/PortfolioProjects/blob/main/SQL%20Projects/Jobs%20and%20Salaries_India_Data%20Analysis.sql)
 
 
 
