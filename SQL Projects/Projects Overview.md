@@ -95,15 +95,37 @@ Utilized an interactive Tableau dashboard to visually represent data insights. C
 - **Project Repository:** [Link to Airlines Project](https://github.com/AnoopHari/PortfolioProjects/blob/main/Airlines%20Project.sql)
 
 
- 
+## 6)  Cleaning and Analyzing Job Position Salary Data
+
+Description:
+This project focuses on leveraging SQL to clean, analyze, and extract actionable insights from a dataset containing job position and salary information, enabling better understanding of employee demographics, compensation trends, and organizational structure.
+
+Key Insights:
+
+1) Position Frequency Analysis: Identified "Research Analyst" as the most common job position in the dataset.
+   
+2) Salary Trends:
+   - Found "System Engineer" to be the highest-earning position by average salary.
+   - Analyzed the count of employees earning above the overall average salary.
+
+3) Geographical Salary Distribution: Highlighted New Delhi as the location with the highest total salary, emphasizing its importance as a financial hub.
+
+5) Employee Experience and Education: Grouped employee experience by education levels to uncover patterns and trends for talent development strategies.
+
+Data Cleaning:
+
+- Corrected inconsistencies in position and location names.
+- Replaced missing values with defaults (e.g., "Unknown").
+- Standardized data formats for consistent querying.
+
+- **Project Repository:** [Link to Jobs and Salaries_India_Data Analysis]([https://github.com/AnoopHari/PorfolioProjects/blob/main/Salary%20Dataset%20Project.sql](https://github.com/AnoopHari/PortfolioProjects/blob/main/SQL%20Projects/Jobs%20and%20Salaries_India_Data%20Analysis.sql))
 
 
-- **Tableau Visualization:** [Link to Tableau Visualization](https://public.tableau.com/app/profile/anoop.s.hari/viz/SkyChoicesNavigatingAirlines-WhichAirlinetoChoose/Dashboard1)
 
 
 Conclusion:
 
-The "Sky Choices: Navigating Airlines" project furnishes airlines and industry stakeholders with actionable insights for enhancing operational efficiency, customer experiences, and targeted strategies, enabling a deeper understanding of air travel dynamics.
+This project provides valuable insights into employee compensation and experience, enabling organizations to optimize workforce strategies, address skill gaps, and develop fair compensation structures.
 
 
 
