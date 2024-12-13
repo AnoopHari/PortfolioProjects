@@ -167,9 +167,51 @@ Techniques and Tools:
 - **Project Repository:** [Link to Jobs and Salaries_India_Data Analysis](https://github.com/AnoopHari/PortfolioProjects/blob/main/SQL%20Projects/Data_Cleaning%20%2B%20EDA.sql)
 
 
+## 8)  Sales Analysis for Product Categories & Top Customers
+
+Objective:
+The goal of this analysis is to answer the following business questions:
+ 1) Which product categories are generating the highest revenue?
+ 2) How does the performance of these high-revenue categories vary across different regions over the past year?
+ 3) Who are the top 5 customers contributing the most to the revenue within these high-performing categories?
+
+Key Findings:
+ 1. Top Performing Categories:
+    - 'Books' and 'Clothing' are the highest revenue-generating categories.
+    - The majority of sales came from the 'East' region, followed by the 'South'.
+   
+ 2. Sales by Region and Month:
+    - Most sales occurred in 2023, with January being the top sales month.
+    - Lowest sales months vary by region:
+        - East: November
+        - North: April
+        - South: June
+        - West: September
+         
+  3. Top 5 Performing Customers:
+     - The top 5 customers contributing the most to revenue are from the UK, India, Germany, and the USA.
+     - The total revenue for these customers ranges from approximately $16,666 to $20,927.
+
+Conclusion:
+ - Out of the four different categories, 'Books' and 'Clothing' have been identified as the most profitable categories.
+ - Sales figures were the highest in the 'East' region, followed by the 'South' region.
+ - The launch dates for both 'Books' and 'Clothing' categories were in January 2020, and the products were sold across various regions with some regional variations in sales performance.
+ - The top 5 performing customers have significantly contributed to the overall sales revenue, with the highest performing customers contributing just over $20,000 in total sales.
+
+SQL Functions and Concepts Used:
+   - Window Functions: Used to analyze data across different rows that are related to the current row, allowing for comparisons across partitions of data (e.g., sales trends over time).
+   - FIRST_VALUE(): This function was used to retrieve the first value in an ordered set of data, helping in identifying the first sale or top-performing product within a specific    partition.
+   - (CTE): CTEs were utilized to simplify complex queries by breaking them into reusable components, making the overall query structure cleaner and easier to read.
+   - ROW_NUMBER(): This function was used to assign a unique number to each row within a partition, useful for ranking sales by performance, such as determining the top-performing products or regions.
+   - SUM() and COUNT(): These aggregate functions were used to calculate total sales and count the number of transactions, respectively, often in conjunction with GROUP BY for grouping data by specific attributes like region or product category.
+   - GROUP BY: This clause was used in conjunction with aggregate functions to group data based on certain columns, enabling the analysis of sales by regions, products, or time periods.
+   - HAVING: Applied after GROUP BY to filter aggregated results, ensuring that only relevant data (e.g., sales over a certain threshold) was considered.
+   - DISTINCT: This was used to eliminate duplicate records, ensuring the accuracy and uniqueness of the data, especially when analyzing customer information.
+   - UPDATE and DELETE: These operations were used to correct invalid data or remove duplicates from the dataset, ensuring the integrity and cleanliness of the data.
+   - Date Functions (YEAR(), DATE_FORMAT()): These were employed to extract and format date-related information, helping in temporal analysis such as revenue trends across months or years.
 
 
-
+- **Project Repository:** [Link to Jobs and Salaries_India_Data Analysis](https://github.com/AnoopHari/PortfolioProjects/blob/main/SQL%20Projects/Sales_Analysis_Project.sql)
 
 
 
