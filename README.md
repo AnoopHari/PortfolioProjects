@@ -1,8 +1,8 @@
 ## 🌟 Data Analysis Portfolio
-Welcome to my Data Analysis Portfolio, a curated collection of my work showcasing my skills in Python, Excel, R, and Tableau. This repository highlights my journey as a data analyst, tackling real-world datasets, solving business problems, and creating insightful visualizations. Whether you're here to explore my projects, learn from my work, or evaluate my expertise, you're in the right place!
+Welcome to my Data Analysis Portfolio, a curated collection of my work showcasing my skills in Python, SQL, Excel, R, and Tableau. This repository highlights my journey as a data analyst, tackling real-world datasets, solving business problems, and creating insightful visualizations. Whether you're here to explore my projects, learn from my work, or evaluate my expertise, you're in the right place!
 
 ### 📂 Repository Structure
-This repository is organized into four main folders, each representing a tool or language I've used to perform data analysis. Click on any folder below to dive deeper into the projects and skills I've demonstrated:
+This repository is organized into five main folders, each representing a tool or language I've used to perform data analysis. Click on any folder below to dive deeper into the projects and skills I've demonstrated:
 
 #### Python
 
