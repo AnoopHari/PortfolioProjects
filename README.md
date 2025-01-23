@@ -69,7 +69,8 @@ Key Highlights:
 
 
 
-👨‍💻 About Me
+### 👨‍💻 About Me
+
 I'm a passionate data analyst with a strong background in uncovering actionable insights from data. With hands-on experience in SQL, Python, Excel, and Tableau, I strive to bridge the gap between raw data and meaningful decision-making.
 
 Let’s connect and collaborate on LinkedIn: www.linkedin.com/in/anoopshari
