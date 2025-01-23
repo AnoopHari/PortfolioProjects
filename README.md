@@ -13,6 +13,18 @@ Key Highlights:
 - Data wrangling and cleaning techniques.
 - Exploratory Data Analysis (EDA) on diverse datasets.
 - Statistical modeling and predictive analytics.
+
+
+#### SQL
+
+Features SQL scripts and projects highlighting my proficiency in writing complex queries for data analysis, reporting, and database management.
+
+Key Highlights:
+
+- Writing optimized SQL queries for large datasets.
+- Using aggregate functions, window functions, and CTEs.
+- Real-world examples of joining and filtering data across multiple tables.
+
   
 #### Excel
 
@@ -53,4 +65,12 @@ Key Highlights:
 - Programming: Writing efficient code in Python and R.
 - Automation: Leveraging Excel VBA for task optimization.
 - Business Acumen: Solving real-world problems with data-driven approaches.
+
+
+
+
+👨‍💻 About Me
+I'm a passionate data analyst with a strong background in uncovering actionable insights from data. With hands-on experience in SQL, Python, Excel, and Tableau, I strive to bridge the gap between raw data and meaningful decision-making.
+
+Let’s connect and collaborate on LinkedIn: www.linkedin.com/in/anoopshari
 
