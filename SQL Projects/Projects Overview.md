@@ -1,182 +1,220 @@
-1) Salary Dataset Project  
-Description: This SQL project analyzes a salary dataset to gain insights into salary patterns and employment dynamics across various industries. The dataset includes information on age, gender, education level, job titles, years of experience, salary, country, and race. The project aims to explore salary trends, average salaries by education level and job titles, salary distribution by country, and more.
+# 🚀 SQL Projects Portfolio
 
-Project Repository: Link to Salary Dataset Project  
-Tableau Visualization: Link to Tableau Visualization  
-Insights:
-- The project reveals significant differences in average salaries based on education level, with higher education generally leading to higher salaries.
-- Job titles with "Analyst" in their name tend to have relatively higher average salaries.
-- The salary distribution varies greatly across different countries, with some countries having considerably higher maximum salaries than others.
-
-2) Spotify Data Project  
-Description: This SQL project analyzes a Spotify dataset to gain insights into users' music and podcast preferences, subscription habits, and listening behaviors. The dataset includes demographic information such as age and gender, as well as variables related to music and podcast usage. The project aims to explore patterns, trends, and correlations within the data and present the findings through interactive Tableau visualizations.
-
-Project Repository: Link to Spotify Data Project  
-Tableau Visualization: Link to Tableau Visualization  
-Insights:
-- Users between the ages of 20 and 35 prefer music with specific moods, while school-going users have different music preferences.
-- Podcasts of different genres have varying average ages of listeners.
-- Premium subscription usage is significantly higher among users with more than two years of Spotify usage.
-
-3) Covid Data Project  
-Description: This compelling COVID-19 dataset analysis focuses on unraveling significant patterns in infection rates and mortality trends across various locations. The dataset encompasses crucial information on total cases, deaths, population, testing data, and vaccination statistics for different countries and dates. Through rigorous SQL queries, this project aims to shed light on key insights, including infection rate fluctuations, death percentages in specific locations, and the impact of vaccination efforts on controlling the pandemic.
-
-Project Repository: Link to COVID-19 Dataset Project  
-Tableau Visualization: Link to Tableau Visualization  
-Key Insights:
-- Infection Rate Dynamics: The analysis reveals fluctuations in infection rates over time, reflecting the ebb and flow of COVID-19 cases in different regions. By visualizing this trend, we can identify potential hotspots and periods of increased transmission.
-- Location-Specific Mortality: The project investigates the death percentage in highest infection affected locations, providing critical insights into the pandemic's impact on specific regions.
-- Vaccination Impact: The analysis explores vaccination efforts, including the number of vaccinated individuals and the percentage of fully vaccinated populations in different countries. This information aids in understanding the progress of vaccination campaigns and their influence on curbing the spread of the virus.
-
-By leveraging the power of SQL and Tableau visualizations, this project facilitates a comprehensive understanding of COVID-19's impact, infection patterns, and the effectiveness of vaccination strategies of top affected countires.
-
-Feel free to explore the project repositories and interact with the Tableau visualizations. For any questions or feedback, please reach out to me.
-
-4) Food and Lifestyle Project  
-Description: The project, "Savoring Insights: Analyzing Food Preferences and Lifestyle Choices," delves into the rich tapestry of human behavior and choices by examining a comprehensive dataset stored in the "food_habits" database. This dataset, encapsulated within the "food_details" table, encapsulates diverse information, ranging from participants' academic performance and gender to their dietary habits, exercise routines, and favorite cuisines. Through a series of SQL queries and analyses, this project unravels intriguing patterns and trends within the data, shedding light on questions such as gender distribution, average GPA, drink preferences, childhood cuisines, comfort food motivations, and much more.
-
-Project Repository: Link to Food Habits Project  
-Tableau Visualization: Link to Tableau Visualization  
-Key Insights:
-- Gender Diversity: The project highlights a diverse gender distribution among participants, offering opportunities for gender-specific marketing and product development.
-- Comfort Food Drivers: Top comfort food reasons were identified, revealing emotional connections with food that can guide healthier comfort food alternatives.
-- Exercise Popularity: The most common exercise type among participants was determined, aiding fitness-related businesses in targeting specific exercise preferences.
-- Vitamin Intake Awareness: The project identified participants' vitamin intake habits, shedding light on their awareness of nutritional needs and potential opportunities for promoting healthy dietary choices and supplements.
-- Popular Sports Choice: The analysis unveiled the prevalent sport of choice among participants, providing crucial insights for sports-focused businesses and organizations seeking to engage with specific sports enthusiasts in their target demographic.
-
-5) Sky Choices: Navigating Airlines  
-The "Sky Choices" project delves into aviation data from the "airline_data" dataset sourced from Kaggle, revealing key patterns and trends within passenger demographics, flight operations, delays, and travel behaviors.
-
-Key Insights:
-- Passenger Demographics: Uncovered average ages across nationalities and gender-specific trends, aiding targeted marketing and service improvements.
-- Flight Operations: Analyzed airport performance to identify busy hubs and potential areas for optimization.
-- Flight Delays Analysis: Calculated delay percentages to assess operational punctuality and scheduling improvements.
-- Passenger Travel Behavior: Explored travel habits like frequent flyers, diverse destinations visited, and consecutive travel days.
-
-Tableau Visualization:
-Utilized an interactive Tableau dashboard to visually represent data insights. Charts, maps, and filters provide an intuitive exploration of passenger demographics, delay patterns, airport metrics, and travel behaviors.
-
-Project Repository: Link to Airlines Project
-
-6) Cleaning and Analyzing Job Position Salary Data  
-Description: This project focuses on leveraging SQL to clean, analyze, and extract actionable insights from a dataset containing job position and salary information, enabling better understanding of employee demographics, compensation trends, and organizational structure.
-
-Key Insights:
-- Position Frequency Analysis: Identified "Research Analyst" as the most common job position in the dataset.
-
-Salary Trends:
-- Found "System Engineer" to be the highest-earning position by average salary.
-- Analyzed the count of employees earning above the overall average salary.
-
-Geographical Salary Distribution: Highlighted New Delhi as the location with the highest total salary, emphasizing its importance as a financial hub.
-
-Employee Experience and Education: Grouped employee experience by education levels to uncover patterns and trends for talent development strategies.
-
-Data Cleaning:
-- Corrected inconsistencies in position and location names.
-- Replaced missing values with defaults (e.g., "Unknown").
-- Standardized data formats for consistent querying.
-
-Project Repository: Link to Jobs and Salaries_India_Data Analysis
-
-Conclusion:
-This project provides valuable insights into employee compensation and experience, enabling organizations to optimize workforce strategies, address skill gaps, and develop fair compensation structures.
-
-7) Data Cleaning and EDA on Layoff Data  
-Objective: This project aims to clean, standardize, and analyze the "layoffs" dataset using SQL, uncovering key trends and insights about layoffs across various industries, countries, and funding stages.
-
-Key Insights:
-Industry Trends:
-- Consumer & Retail industries experienced the highest layoffs during the analyzed period.
-- The "Crypto" industry data was standardized for accurate aggregation and analysis.
-
-Company Analysis:
-- Identified "Katerra" as the company with the highest layoffs (2,434 employees).
-- Top companies contributing to layoffs were ranked yearly, with the top 5 for each year highlighted.
-
-Geographical Distribution:
-- The United States accounted for the majority of layoffs, showcasing significant regional impacts.
-
-Temporal Patterns:
-- Layoffs peaked in specific months, with rolling totals calculated for cumulative effects.
-- The time range of layoffs extended from March 2020 to March 2023.
-
-Funding Stage Analysis
-- Companies in later funding stages, such as "Series C" and "IPO," reported higher layoffs, reflecting organizational restructuring efforts.
-
-Data Cleaning:
-- Duplicates: Identified and removed duplicate records using grouping and window functions.
-- Standardization: Trimmed whitespaces and unified inconsistent data entries for industries, companies, and countries.
-- Date Handling: Converted textual date fields into SQL's DATE format for proper temporal analysis.
-- Null Values: Imputed or removed null entries based on availability and relevance to ensure data completeness.
-- Text Corrections: Fixed issues with industry names (e.g., Crypto-related inconsistencies) and improper country formats (e.g., "U.S.").
-
-Techniques and Tools:
-- Utilized SQL features such as CTEs (WITH statements), window functions (ROW_NUMBER, DENSE_RANK, SUM OVER), and aggregate functions (SUM, MAX, MIN).
-- Applied string manipulation techniques like TRIM and SUBSTRING.
-- Performed exploratory data analysis (EDA) using grouping, ordering, and rolling total calculations.
-
-Project Repository: Link to Jobs and Salaries_India_Data Analysis
-
-8) Sales Analysis for Product Categories & Top Customers  
-Objective: The goal of this analysis is to answer the following business questions:
-
-- Which product categories are generating the highest revenue?
-- How does the performance of these high-revenue categories vary across different regions over the past year?
-- Who are the top 5 customers contributing the most to the revenue within these high-performing categories?
-
-Key Findings:
-Top Performing Categories:
-- 'Books' and 'Clothing' are the highest revenue-generating categories.
-- The majority of sales came from the 'East' region, followed by the 'South'.
-
-Sales by Region and Month:
-- Most sales occurred in 2023, with January being the top sales month.
-- Lowest sales months vary by region:
-  - East: November
-  - North: April
-  - South: June
-  - West: September
-
-Top 5 Performing Customers:
-- The top 5 customers contributing the most to revenue are from the UK, India, Germany, and the USA.
-- The total revenue for these customers ranges from approximately $16,666 to $20,927.
-
-Conclusion:
-- Out of the four different categories, 'Books' and 'Clothing' have been identified as the most profitable categories.
-- Sales figures were the highest in the 'East' region, followed by the 'South' region.
-- The launch dates for both 'Books' and 'Clothing' categories were in January 2020, and the products were sold across various regions with some regional variations in sales performance.
-- The top 5 performing customers have significantly contributed to the overall sales revenue, with the highest performing customers contributing just over $20,000 in total sales.
-
-SQL Functions and Concepts Used:
-- Window Functions: Used to analyze data across different rows that are related to the current row, allowing for comparisons across partitions of data (e.g., sales trends over time).
-- FIRST_VALUE(): This function was used to retrieve the first value in an ordered set of data, helping in identifying the first sale or top-performing product within a specific partition.
-- (CTE): CTEs were utilized to simplify complex queries by breaking them into reusable components, making the overall query structure cleaner and easier to read.
-- ROW_NUMBER(): This function was used to assign a unique number to each row within a partition, useful for ranking sales by performance, such as determining the top-performing products or regions.
-- SUM() and COUNT(): These aggregate functions were used to calculate total sales and count the number of transactions, respectively, often in conjunction with GROUP BY for grouping data by specific attributes like region or product category.
-- GROUP BY: This clause was used in conjunction with aggregate functions to group data based on certain columns, enabling the analysis of sales by regions, products, or time periods.
-- HAVING: Applied after GROUP BY to filter aggregated results, ensuring that only relevant data (e.g., sales over a certain threshold) was considered.
-- DISTINCT: This was used to eliminate duplicate records, ensuring the accuracy and uniqueness of the data, especially when analyzing customer information.
-- UPDATE and DELETE: These operations were used to correct invalid data or remove duplicates from the dataset, ensuring the integrity and cleanliness of the data.
-- Date Functions (YEAR(), DATE_FORMAT()): These were employed to extract and format date-related information, helping in temporal analysis such as revenue trends across months or years.
-
-Project Repository: Link to Jobs and Salaries_India_Data Analysis
-
-Connect with me on LinkedIn
-
-9) PAN Validation & Data Cleaning Project  
-Description: A practical SQL project focused on cleaning, validating, and categorizing Indian Permanent Account Numbers (PANs) using custom functions and pattern matching. The project covers:
-- Missing Data: Identifies empty/missing PAN numbers
-- Duplicate Handling: Detects duplicate PAN entries
-- Leading/Trailing Spaces: Cleans unnecessary spaces
-- Case Consistency: Converts PANs to uppercase
-- Custom Validation Functions: Detects adjacent identical characters, detects sequential characters
-- Pattern Validation: Uses regex to validate PAN format (AAAAA1234A)
-- Categorization: Classifies PANs as valid or invalid using SQL logic and views
-- Summary Reporting: Provides overall metrics for processed, valid, invalid, and missing PAN records
-
-Project Repository: [Link to PAN Validation.sql](PAN%20Validation.sql)
+Welcome! Explore diverse, real-world SQL projects featuring data cleaning, analytics, and interactive dashboards.  
+Delve into salary data, Spotify trends, COVID insights, food habits, airline operations, sales analytics, and more!
 
 ---
 
-Let's delve into the data together and uncover valuable insights! 📊🎵
+## 📂 Table of Contents
+1. [Salary Dataset Project](#salary-dataset-project)
+2. [Spotify Data Project](#spotify-data-project)
+3. [Covid Data Project](#covid-data-project)
+4. [Food and Lifestyle Project](#food-and-lifestyle-project)
+5. [Sky Choices: Navigating Airlines](#sky-choices-navigating-airlines)
+6. [Job Position Salary Data Cleaning & Analysis](#cleaning-and-analyzing-job-position-salary-data)
+7. [Layoff Data Cleaning & EDA](#data-cleaning-and-eda-on-layoff-data)
+8. [Sales Analysis: Product Categories & Top Customers](#sales-analysis-for-product-categories--top-customers)
+9. [PAN Validation & Data Cleaning Project](#pan-validation--data-cleaning-project)
+
+---
+
+## 1. <a name="salary-dataset-project"></a>💸 Salary Dataset Project
+<details>
+<summary><strong>View Project Details</strong></summary>
+
+### **Description**
+Analyze salary patterns and employment dynamics across industries.  
+Dataset features: age, gender, education, job titles, experience, salary, country, race.
+
+### **Links**
+- 🔗 [Repository](https://github.com/AnoopHari/PorfolioProjects/blob/main/Salary%20Dataset%20Project.sql)
+- 📊 [Tableau Dashboard](https://public.tableau.com/app/profile/anoop.s.hari/viz/SalaryInsightsDashboardUncoveringCompensationPatternsandDemographics/Dashboard1)
+
+### **Key Insights**
+- 🎓 Higher education generally leads to higher salaries.
+- 🧑‍💼 "Analyst" job titles earn more on average.
+- 🌍 Salary distribution varies greatly by country.
+
+</details>
+
+---
+
+## 2. <a name="spotify-data-project"></a>🎵 Spotify Data Project
+<details>
+<summary><strong>View Project Details</strong></summary>
+
+### **Description**
+Analyze Spotify user data for music/podcast preferences, subscription habits, and listening behaviors.
+
+### **Links**
+- 🔗 [Repository](https://github.com/AnoopHari/PorfolioProjects/blob/main/Spotify%20Data%20Project.sql)
+- 📊 [Tableau Dashboard](https://public.tableau.com/app/profile/anoop.s.hari/viz/SpotifyUserDataReview/Dashboard1?publish=yes)
+
+### **Key Insights**
+- 👨‍🎤 Ages 20-35 prefer specific music moods.
+- 🎙️ Podcast genres have distinct listener age profiles.
+- 💎 Premium usage higher among seasoned Spotify users.
+
+</details>
+
+---
+
+## 3. <a name="covid-data-project"></a>🦠 Covid Data Project
+<details>
+<summary><strong>View Project Details</strong></summary>
+
+### **Description**
+Unravel COVID-19 infection rates, mortality trends, and vaccination impact globally.
+
+### **Links**
+- 🔗 [Repository](https://github.com/AnoopHari/PorfolioProjects/blob/main/Covid%20Data%20Project.sql)
+- 📊 [Tableau Dashboard](https://public.tableau.com/app/profile/anoop.s.hari/viz/ThemostaffectedcountriesbyCOVID-19/Dashboard1)
+
+### **Key Insights**
+- 📈 Infection rates fluctuate, highlighting hotspots.
+- 💀 Mortality analysis in highly affected regions.
+- 💉 Vaccination progress and its effect on pandemic control.
+
+</details>
+
+---
+
+## 4. <a name="food-and-lifestyle-project"></a>🍽️ Food and Lifestyle Project
+<details>
+<summary><strong>View Project Details</strong></summary>
+
+### **Description**
+Explore food habits and lifestyle choices, examining diverse patterns in diet, exercise, and preferences.
+
+### **Links**
+- 🔗 [Repository](https://github.com/AnoopHari/PorfolioProjects/blob/main/FoodHabits%20Project.sql)
+- 📊 [Tableau Dashboard](https://public.tableau.com/app/profile/anoop.s.hari/viz/SavoringInsightsFoodPreferencesandLifestyleChoices/Dashboard1)
+
+### **Key Insights**
+- ⚧️ Diverse gender distribution for targeted insights.
+- 😊 Emotional connections drive comfort food choices.
+- 🏃‍♂️ Popular exercise types revealed.
+- 💊 Vitamin intake awareness among participants.
+- 🏅 Popular sports choices for engagement strategies.
+
+</details>
+
+---
+
+## 5. <a name="sky-choices-navigating-airlines"></a>✈️ Sky Choices: Navigating Airlines
+<details>
+<summary><strong>View Project Details</strong></summary>
+
+### **Description**
+Analyze aviation data to uncover passenger demographics, flight operations, delays, and travel behaviors.
+
+### **Links**
+- 🔗 [Repository](https://github.com/AnoopHari/PortfolioProjects/blob/main/Airlines%20Project.sql)
+
+### **Key Insights**
+- 👨‍👩‍👧‍👦 Demographic trends for service improvements.
+- 🛫 Airport performance and busy hubs.
+- ⏰ Delay analysis for operational optimization.
+- 🌏 Travel behaviors and frequent flyer patterns.
+
+</details>
+
+---
+
+## 6. <a name="cleaning-and-analyzing-job-position-salary-data"></a>🧹 Job Position Salary Data Cleaning & Analysis
+<details>
+<summary><strong>View Project Details</strong></summary>
+
+### **Description**
+SQL-powered cleaning and analysis of job positions and salary data, uncovering compensation trends and workforce structure.
+
+### **Links**
+- 🔗 [Repository](https://github.com/AnoopHari/PortfolioProjects/blob/main/SQL%20Projects/Jobs%20and%20Salaries_India_Data%20Analysis.sql)
+
+### **Key Insights**
+- 🔍 "Research Analyst" is the most common position.
+- 💼 "System Engineer" leads in average salary.
+- 🏙️ New Delhi: Highest total salary hub.
+- 🎓 Experience grouped by education level.
+
+### **Data Cleaning**
+- Fixed inconsistencies, replaced missing values, standardized formats.
+
+</details>
+
+---
+
+## 7. <a name="data-cleaning-and-eda-on-layoff-data"></a>📉 Layoff Data Cleaning & EDA
+<details>
+<summary><strong>View Project Details</strong></summary>
+
+### **Description**
+Clean, standardize, and analyze layoffs across industries, countries, and funding stages.
+
+### **Links**
+- 🔗 [Repository](https://github.com/AnoopHari/PortfolioProjects/blob/main/SQL%20Projects/Data_Cleaning%20%2B%20EDA.sql)
+
+### **Key Insights**
+- 🛒 Consumer & Retail: Highest layoffs.
+- 🏢 "Katerra" had the highest layoffs.
+- 🇺🇸 U.S. dominated layoff counts.
+- 📅 Layoffs peaked in certain months.
+- 💸 "Series C" & IPO stages saw higher layoffs.
+
+### **Techniques & Cleaning**
+- Used CTEs, window functions, string manipulation, date conversion, deduplication, and normalization.
+
+</details>
+
+---
+
+## 8. <a name="sales-analysis-for-product-categories--top-customers"></a>💰 Sales Analysis: Product Categories & Top Customers
+<details>
+<summary><strong>View Project Details</strong></summary>
+
+### **Objective**
+Identify top revenue categories, key sales trends by region, and highest-paying customers.
+
+### **Links**
+- 🔗 [Repository](https://github.com/AnoopHari/PortfolioProjects/blob/main/SQL%20Projects/Sales_Analysis_Project.sql)
+
+### **Key Findings**
+- 📚 'Books' & 👗 'Clothing' are top revenue categories.
+- 🗺️ 'East' region leads sales; seasonal trends identified.
+- 🏆 Top 5 customers from UK, India, Germany, USA ($16,666–$20,927).
+
+### **SQL Concepts**
+- Window functions, CTEs, aggregation, ranking, date formatting, deduplication.
+
+</details>
+
+---
+
+## 9. <a name="pan-validation--data-cleaning-project"></a>🆔 PAN Validation & Data Cleaning Project
+<details>
+<summary><strong>View Project Details</strong></summary>
+
+### **Description**
+Practical SQL project for cleaning, validating, and categorizing Indian Permanent Account Numbers (PANs).
+
+### **Links**
+- 🔗 [Repository](PAN%20Validation.sql)
+
+### **Key Features**
+- 🚫 Detects missing and duplicate PANs.
+- 🧼 Cleans spaces and enforces case consistency.
+- 🛡️ Custom validation: adjacent identical & sequential characters.
+- 🔍 Pattern validation using regex.
+- 🏷️ Categorizes PANs as valid/invalid.
+- 📊 Summary reporting of dataset health.
+
+</details>
+
+---
+
+## 📣 Connect & Explore
+
+- 👤 [LinkedIn](https://www.linkedin.com/in/anoopshari/)
+- 💬 *Let's delve into the data together and uncover valuable insights!* 📊🎵
+
+---
